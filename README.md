@@ -1,6 +1,6 @@
-# nora_dashboard
+# Direct English
 
-Dashboard Proyecto N.O.R.A | SILICE
+Proyecto Prueba Tecnica | Direct English
 
 ## Getting started
 
