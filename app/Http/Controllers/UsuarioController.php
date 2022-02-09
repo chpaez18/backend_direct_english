@@ -47,7 +47,7 @@ class UsuarioController extends Controller{
             $model->username = $request->input('username');
             $model->fecha_nacimiento = $request->input('fecha_nacimiento');
             $model->correo = $request->input('correo');
-            $model->password = $request->input('password');
+            $model->password = bcrypt($request->input('password'));
             $model->save();
 
         }catch(\Exception $e) {            
